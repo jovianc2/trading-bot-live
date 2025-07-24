@@ -1,0 +1,24 @@
+2025-07-24 15:17:32,876 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://169.254.0.21:5000
+2025-07-24 15:17:32,877 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-24 15:19:17,810 - INFO - 127.0.0.1 - - [24/Jul/2025 15:19:17] "OPTIONS /api/status HTTP/1.1" 200 -
+2025-07-24 15:19:17,815 - INFO - 127.0.0.1 - - [24/Jul/2025 15:19:17] "GET /api/status HTTP/1.1" 200 -
+2025-07-24 15:19:17,815 - INFO - 127.0.0.1 - - [24/Jul/2025 15:19:17] "OPTIONS /socket.io/?EIO=4&transport=polling&t=s0htc1g8 HTTP/1.1" 200 -
+2025-07-24 15:19:17,820 - INFO - 127.0.0.1 - - [24/Jul/2025 15:19:17] "GET /socket.io/?EIO=4&transport=polling&t=s0htc1g8 HTTP/1.1" 200 -
+2025-07-24 15:19:17,821 - INFO - 127.0.0.1 - - [24/Jul/2025 15:19:17] "OPTIONS /socket.io/?EIO=4&transport=polling&t=s0htl5jg HTTP/1.1" 200 -
+2025-07-24 15:19:17,823 - INFO - 127.0.0.1 - - [24/Jul/2025 15:19:17] "GET /api/status HTTP/1.1" 200 -
+2025-07-24 15:19:17,831 - INFO - 127.0.0.1 - - [24/Jul/2025 15:19:17] "OPTIONS /api/performance HTTP/1.1" 200 -
+2025-07-24 15:19:17,831 - INFO - 127.0.0.1 - - [24/Jul/2025 15:19:17] "GET /socket.io/?EIO=4&transport=polling&t=s0htl5jg HTTP/1.1" 200 -
+2025-07-24 15:19:17,835 - INFO - 127.0.0.1 - - [24/Jul/2025 15:19:17] "GET /api/performance HTTP/1.1" 200 -
+2025-07-24 15:19:17,837 - INFO - 127.0.0.1 - - [24/Jul/2025 15:19:17] "GET /api/performance HTTP/1.1" 200 -
+2025-07-24 15:19:17,842 - INFO - 127.0.0.1 - - [24/Jul/2025 15:19:17] "OPTIONS /socket.io/?EIO=4&transport=polling&t=s0hu48c6&sid=SoGUFybTI27K0j1zAAAB HTTP/1.1" 200 -
+2025-07-24 15:19:17,851 - INFO - Client connected
+2025-07-24 15:19:17,851 - INFO - 127.0.0.1 - - [24/Jul/2025 15:19:17] "POST /socket.io/?EIO=4&transport=polling&t=s0hu48c6&sid=SoGUFybTI27K0j1zAAAB HTTP/1.1" 200 -
+2025-07-24 15:19:17,851 - INFO - 127.0.0.1 - - [24/Jul/2025 15:19:17] "OPTIONS /socket.io/?EIO=4&transport=polling&t=s0hu79nh&sid=SoGUFybTI27K0j1zAAAB HTTP/1.1" 200 -
+2025-07-24 15:19:17,855 - INFO - 127.0.0.1 - - [24/Jul/2025 15:19:17] "OPTIONS /api/signals HTTP/1.1" 200 -
+2025-07-24 15:19:17,858 - INFO - 127.0.0.1 - - [24/Jul/2025 15:19:17] "OPTIONS /api/signals HTTP/1.1" 200 -
+2025-07-24 15:19:17,859 - INFO - 127.0.0.1 - - [24/Jul/2025 15:19:17] "GET /socket.io/?EIO=4&transport=polling&t=s0hu79nh&sid=SoGUFybTI27K0j1zAAAB HTTP/1.1" 200 -
+2025-07-24 15:19:17,860 - INFO - 127.0.0.1 - - [24/Jul/2025 15:19:17] "GET /api/signals HTTP/1.1" 200 -
+2025-07-24 15:19:17,862 - INFO - 127.0.0.1 - - [24/Jul/2025 15:19:17] "GET /api/signals HTTP/1.1" 200 -
