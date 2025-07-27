@@ -19,6 +19,9 @@ logging.basicConfig(
 app = Flask(__name__, static_folder="../static", template_folder="../templates")
 CORS(app)  # Enable CORS for all origins
 socketio = SocketIO(app, cors_allowed_origins="*")
+@app.route("/")
+def index():
+    return "✅ Trading Bot Backend is Running!"
 
 # Dummy data for testing
 dummy_performance_metrics = {
