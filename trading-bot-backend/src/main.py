@@ -99,3 +99,5 @@ for rule in app.url_map.iter_rules():
 # Start the app
 if __name__ == '__main__':
     socketio.run(app, host="0.0.0.0", port=5000, allow_unsafe_werkzeug=True)
+for rule in app.url_map.iter_rules():
+    print(f"✅ Registered route: {rule}")
